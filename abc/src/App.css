@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:  white;
+  color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 15px 0 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333 ;
+  padding: 5px;
+}
+
+.cart a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.cart a:hover {
+  text-decoration: underline;
+}
+
+.cart i {
+  font-size: 20px;
+  margin-right: 5px;
+}
